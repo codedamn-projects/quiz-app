@@ -1,6 +1,5 @@
-# Codedamn - Quiz App
-
-![Design for the project]()
+# Codedamn Projects - Quiz App
+![main image](https://raw.githubusercontent.com/codedamn-projects/quiz-app/master/images/startcard.png)
 
 ## Hello developer!
 
@@ -12,21 +11,20 @@ This is one of the many projects available on [codedamn](https://codedamn.com/pr
 
 1. View Highscores 
     On clicking on the view highscores all the highscores saved in the local storage should be shown 
-    
+    ![highscores](https://raw.githubusercontent.com/stephje/javascript-quiz/main/assets/images/highscores.png)
 
 1. Time 
+   Currently no time is shown as the quiz is not started yet
 
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
+
+#### Start Quiz 
+    On clicking on the start quiz button the timer should be set to 50 seconds and the countdown of the timer should begin. 
+
+    The question as four options are shown 
+    ![quiz question](https://raw.githubusercontent.com/codedamn-projects/quiz-app/master/images/question.png)
+
+#### Points 
+    On clicking on the current option Correct 
 ## Instructions
 
 Your challenge is to build out this project and get it looking as close to the design as possible.
