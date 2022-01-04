@@ -24,7 +24,20 @@ This is one of the many projects available on [codedamn](https://codedamn.com/pr
     ![quiz question](https://raw.githubusercontent.com/codedamn-projects/quiz-app/master/images/question.png)
 
 #### Points 
-    On clicking on the current option Correct 
+    On clicking on the correct option the question the next question should appear and correct text should be shown below the question, there will be no change in the timer it will continue to countdown
+
+    ![correct-question](https://raw.githubusercontent.com/codedamn-projects/quiz-app/master/images/correct-answer.png)
+
+    If the answer is wrong then you have to subtract 10 seconds from the current time left to answer the questions 
+
+    ![incorrect-answer](https://raw.githubusercontent.com/codedamn-projects/quiz-app/master/images/incorrect-answer.png)
+
+#### Results 
+    If the timer reaches 0 or the user completes the questions, the box should show `All done!` and the final score of the user and should let the user enter their initials and submit. 
+
+    
+
+    When submitted the the score should be added to the highscores. 
 ## Instructions
 
 Your challenge is to build out this project and get it looking as close to the design as possible.
