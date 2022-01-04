@@ -13,6 +13,9 @@ The header of the application should contain two elements spaced between.
 
 1. View Highscores 
     On clicking on the view highscores all the highscores saved in the local storage should be shown 
+
+    Use the following classes for adding the Left hand icon `fas fa-hand-point-left fa-lg` beside the `View Highscores`. Favicon is already setup in the `<head>` element.
+
     ![highscores](https://raw.githubusercontent.com/stephje/javascript-quiz/main/assets/images/highscores.png)
 
 1. Time 
